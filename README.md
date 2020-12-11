@@ -1,4 +1,5 @@
-# This is my work for the 2019 X-MAS ctf
+# CHIP 9 Emulator
+### This is my work for the 2019 X-MAS CTF CHIP9 EMULATOR
 *I would like to thank the Organiser MILKDROP for their help on an issue with the half carry bit for subtraction*
 
 The original python code is in the chip9-emulator folder, I recommend using the patched bootroom "bootrom0" as a loop in the original bootrom was very slow in python.
