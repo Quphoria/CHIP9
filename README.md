@@ -1,4 +1,4 @@
-# CHIP 9 Emulator
+# CHIP9 Emulator
 ### This is my work for the 2019 X-MAS CTF CHIP9 EMULATOR
 *I would like to thank the Organiser MILKDROP for their help on an issue with the half carry bit for subtraction*
 
