@@ -1,0 +1,22 @@
+﻿<Window x:Class="CHIP9_C_EMU.ConsoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CHIP9_C_EMU"
+        mc:Ignorable="d"
+        Title="CHIP9 CONSOLE" Height="468" Width="404" Background="Black" Closing="Window_Closing_2" Icon="icon.ico">
+    <Grid x:Name="main_grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="ConsoleTitle" Grid.ColumnSpan="2" Content="CHIP9 CONSOLE" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Top" Foreground="White" FontSize="24" Padding="5,0,5,5"/>
+        <ScrollViewer x:Name="textScrollViewer" Grid.ColumnSpan="2" Margin="0" Width="381" Height="361" BorderThickness="1" ScrollChanged="ScrollViewer_ScrollChanged">
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="5" TextWrapping="Wrap" VerticalAlignment="Top" SnapsToDevicePixels="True" Foreground="White" ScrollViewer.CanContentScroll="True" FontSize="14"/>
+        </ScrollViewer>
+        <Border BorderBrush="#FF5D5D5D" BorderThickness="2" Height="365" Width="385" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0.51" Grid.ColumnSpan="2" Margin="0" SnapsToDevicePixels="True"/>
+        <TextBox x:Name="textBox" Grid.ColumnSpan="2" HorizontalAlignment="Center" Height="27" Margin="0,0,0,6" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="385" Background="Black" Foreground="White" BorderBrush="#FF5D5D5D" BorderThickness="2" SnapsToDevicePixels="True" TextChanged="textBox_TextChanged" AcceptsTab="True" AcceptsReturn="True"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+*.zip
+
+CHIP9 C EMU/.vs/*
+CHIP9 C EMU/CHIP9 C EMU/.vs/*
+CHIP9 C EMU/CHIP9 C EMU/obj/*
+CHIP9 C EMU/DEMOS/*
